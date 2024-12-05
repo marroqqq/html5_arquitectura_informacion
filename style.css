@@ -1,4 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
 body {
-  color: white;
-  background-color: cadetblue;
+  background-color: antiquewhite;
+}
+h1 {
+  padding-left: 1%;
+}
+nav {
+  padding-bottom: 2%;
+}
+nav > ul {
+  display: flex;
+  flex-direction: column;
+}
+nav > ul > li {
+  padding: 1%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+}
+li > a:hover {
+  background-color: rgb(195, 195, 195);
+}
+#Descripcion {
+  text-align: center;
+}
+article > p {
+  padding: 2%;
+}
+#Formulario {
+  display: flex;
+  justify-content: space-evenly;
+}
+section > img {
+  padding: 1%;
+}
+fieldset {
+  padding: 2%;
+  margin: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: white;
 }
